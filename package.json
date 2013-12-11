@@ -1,0 +1,8 @@
+{
+  "name": "request-errorlog-middleware",
+  "private": true,
+  "dependencies": {
+    "extend": "~1.2.1",
+    "defaults": "~1.0.0"
+  }
+}

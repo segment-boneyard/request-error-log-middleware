@@ -1,9 +1,9 @@
 {
-  "name": "request-errorlog-middleware",
-  "version": "1.0.0",
+  "name": "request-error-log-middleware",
+  "version": "1.0.1",
   "dependencies": {
     "extend": "~1.0.0",
     "defaults": "~1.0.0",
-    "on-response": "1.0.0"
+    "on-response": "1.0.1"
   }
 }

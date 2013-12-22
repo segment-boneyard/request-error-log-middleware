@@ -1,13 +1,9 @@
 {
-  "name": "s-request-errorlog-middleware",
-  "dependencies": {
-    "extend": "~1.2.1",
-    "defaults": "~1.0.0",
-    "s-extend": "1.0.0",
-    "s-on-response": "1.0.0"
-  },
+  "name": "request-errorlog-middleware",
   "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://registry.segment.io"
+  "dependencies": {
+    "extend": "~1.0.0",
+    "defaults": "~1.0.0",
+    "on-response": "1.0.0"
   }
 }

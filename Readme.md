@@ -1,11 +1,12 @@
-# request-errorlog-middleware
+# request-error-log-middleware
 
-    A request error logger middleware.
+  Log an [express](https://github.com/visionmedia/express) request if the response has a bad status code.
+
 
 ## Example
 
 ```js
-var errorLog = require('request-log');
+var errorLog = require('request-error-log-middleware');
 var logger = new require('winston').Logger();
 
 var app = express();
@@ -17,9 +18,9 @@ app.configure('production', function () {
 
 ## API
 
-### errorLog(logger, levels)
+### errorLog(logger, statuses)
 
-    Return a request error logger middleware with custom `levels`:
+  Return a request error logger middleware with custom `statuses`:
 
 ```js
 {
@@ -28,3 +29,17 @@ app.configure('production', function () {
 }
 ```
 
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
+```

@@ -1,15 +1,13 @@
 
 var defaults = require('defaults');
-var extend = require('s-extend');
-var onResponse = require('s-on-response');
-
+var extend = require('extend');
+var onResponse = require('on-response');
 
 /**
  * Expose `generate`.
  */
 
 module.exports = generate;
-
 
 /**
  * Generate a request error logging middleware.
@@ -41,7 +39,6 @@ function generate (logger, levels) {
     next(err);
   };
 }
-
 
 /**
  * Formats the request error log message.

@@ -51,7 +51,7 @@ function generate (logger, levels) {
 function format (err, summary) {
   var request = summary.request;
   var response = summary.response;
-  var stack = summary.stack.replace(/\\n/g, '\n');
+  var stack = summary.stack ? '\n' + summary.stack.replace(/\\n/g, '\n') : '';
   return err.toString() + ' - request failed (' + response.status + ') ' +
-   request.method + ' ' + request.url + ' ' + response.time + 'ms' + '\n' + stack;
+   request.method + ' ' + request.url + ' ' + response.time + 'ms' + stack;
 }

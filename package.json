@@ -1,6 +1,10 @@
 {
   "name": "request-error-log-middleware",
   "version": "1.0.3",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/segmentio/request-error-log-middleware.git"
+  },
   "dependencies": {
     "extend": "~1.0.0",
     "defaults": "~1.0.0",
